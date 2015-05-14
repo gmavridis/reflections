@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+it creates a bunch of files in the sub-directory .git which will be used to store the data you will track in your repository
+

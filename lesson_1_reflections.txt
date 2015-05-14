@@ -1,0 +1,26 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Examining just the code that changed reduced the amount of code i had to look through. 
+(I just compared 10 lines instead of a few hundrets)
+So I had less work to do - which is big plus on its own - and i could also concentrate all the time 
+working on it.
+
+
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+ - I can reflect on my process of code generation trying to improve this later on
+ - I can look how a specific feature was created originaly
+ - I can refactor freely without the feat that i cant go back at any time
+
+
+
+ What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
+
+pros:
+- Only coherent versions get into the version-control
+- You have to intensionally "finish" some step of work
+- you get a meaningfull log
+
+cons:
+- You might lose your changes if you "leave" in hurry
