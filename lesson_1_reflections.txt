@@ -24,3 +24,10 @@ pros:
 
 cons:
 - You might lose your changes if you "leave" in hurry
+
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+The feature of allowing multiple files in a commit doesnt  fit into the workflow of 
+google-docs. In google-docs every single change is automatically saved (commited). 
+Also this feature is NOT relevant 

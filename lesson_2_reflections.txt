@@ -6,3 +6,36 @@ it creates a bunch of files in the sub-directory .git which will be used to stor
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It "collects"  the elements for your next commit, so if for example you refactor some Code which affects more than one file, you could commit all files with one commit(-message)
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+you can recheck anything added before commiting it.
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+
+When starting work on anything that takes more than one commit to finish. This way the master is always kept working.
+
+To support more than one version of the product. (With easy allowance to merge)
+
+
+How do the diagrams help you visualize the branch structure?
+
+It shows the branches and the context in which they were created
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The changes made on one branch are transfered to the other.
+
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro:
+	It makes the merging much easier
+	Its "defensive" nature 
+
+Cons: 
+	It might generate a bug.
+	It generates more work than possible needed
